@@ -1,0 +1,12 @@
+.container {
+}
+p {
+  color: green;
+  line-height: 53px;
+  letter-spacing: 4px;
+}
+
+h1 {
+  color: green;
+  font-weight: 200;
+}
