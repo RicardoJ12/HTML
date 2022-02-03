@@ -1,0 +1,50 @@
+p1 {
+  position: relative;
+  top: 5px;
+  left: 40px;
+  color: orange;
+}
+
+img.doneer {
+  position: relative;
+  top: 28px;
+  left: 30px;
+}
+
+p2 {
+  position: relative;
+  top: 5px;
+  left: 150px;
+  color: orange;
+}
+
+img.bescherm {
+  position: relative;
+  top: 28px;
+  left: 140px;
+}
+
+p3 {
+  position: relative;
+  top: 26px;
+  width: 260px;
+  line-height: 35px;
+  float: left;
+  left: 20px;
+  word-wrap: break-word;
+  color: orange;
+  font-size: 27px;
+  font-family: monospace;
+}
+p4 {
+  position: relative;
+  top: 26px;
+  float: right;
+  right: 800px;
+  width: 260px;
+  line-height: 35px;
+  text-align: left;
+  color: orange;
+  font-size: 27px;
+  font-family: monospace;
+}

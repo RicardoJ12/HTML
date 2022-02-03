@@ -1,0 +1,162 @@
+#home {
+  position: relative;
+  top: 40px;
+  float: left;
+  left: 5px;
+  background: green;
+  width: 175px;
+  height: 37px;
+}
+
+#home p1 {
+  position: relative;
+  top: 5px;
+  left: 62px;
+}
+
+#trainingen {
+  position: relative;
+  top: 40px;
+  float: left;
+  left: 15px;
+  background: yellow;
+  width: 175px;
+  height: 37px;
+}
+
+#trainingen p2 {
+  position: relative;
+  top: 5px;
+  left: 48px;
+}
+
+#consultancy {
+  position: relative;
+  top: 40px;
+  float: left;
+  left: 25px;
+  background: red;
+  width: 175px;
+  height: 37px;
+}
+
+#consultancy p3 {
+  position: relative;
+  top: 5px;
+  left: 40px;
+}
+
+#producten {
+  position: relative;
+  top: 40px;
+  float: left;
+  left: 35px;
+  background: darkblue;
+  width: 175px;
+  height: 37px;
+}
+
+#producten p4 {
+  position: relative;
+  top: 5px;
+  left: 47px;
+}
+
+#timeline {
+  position: relative;
+  top: 40px;
+  left: 45px;
+  float: left;
+  background: green;
+  width: 175px;
+  height: 37px;
+}
+
+#timeline p5 {
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+
+#herders {
+  position: relative;
+  top: 40px;
+  left: 55px;
+  float: left;
+  background: yellow;
+  width: 175px;
+  height: 37px;
+}
+
+#herders p6 {
+  position: relative;
+  top: 5px;
+  left: 55px;
+}
+
+#overons {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  float: left;
+  background: red;
+  width: 175px;
+  height: 37px;
+}
+
+#overons p7 {
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+
+#contact {
+  position: relative;
+  top: 40px;
+  left: 80px;
+  float: left;
+  background: darkblue;
+  width: 175px;
+  height: 37px;
+}
+
+#contact p8 {
+  position: relative;
+  top: 5px;
+  left: 55px;
+}
+
+@media screen and (max-width: 992px) {
+  #home {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #timeline {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #trainingen {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #herders {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #consultancy {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #overons {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #producten {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #contact {
+    width: 20%;
+    margin-bottom: 10px;
+  }
+}
