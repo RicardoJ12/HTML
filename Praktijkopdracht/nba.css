@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  background-color: grey;
+}
+
+@keyframes SlideInFromTop {
+  0% {
+    transform: translateY(-150%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 10;
+}
+
+.page {
+  width: 15%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  padding: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  background-color: beige;
+  color: black;
+}
+
+.page:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.3fr repeat(2, 1fr);
+  width: 50%;
+  height: 800px;
+  margin-bottom: 50px;
+  margin-left: 25%;
+  grid-auto-flow: dense;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+
+.games-text {
+  font-size: 70px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-column: span 2;
+  background-color: beige;
+  padding: 5px;
+  color: black;
+}
+
+.Foto2K19 {
+  background-image: url(2k19.jpg);
+  background-size: cover;
+}
+
+.Foto2K20 {
+  background-image: url(2k20.jpg);
+  background-size: cover;
+}
+
+.Foto2K21 {
+  background-image: url(2k21.jpg);
+  background-size: cover;
+}
+
+.Foto2K22 {
+  background-image: url(2k22.jpg);
+  background-size: cover;
+}
+
+.games-img:hover {
+  padding: 10px;
+  transform: scale(1.05);
+}
+
+.footer {
+  display: grid;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-content {
+  background-color: beige;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-text {
+  background-color: beige;
+  color: black;
+}
+
+/*Pc Screen*/
+
+@media screen and (max-width: 1300px) and (min-width: 1151px) {
+  .games {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/*Tablet Screen*/
+
+@media screen and (max-width: 1150px) and (min-width: 481px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .page {
+    margin-left: 25px;
+  }
+
+  .games {
+    width: 50%;
+    margin-left: 35%;
+    margin-right: 35%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 0.3fr repeat(4, 1fr);
+    height: 1500px;
+  }
+
+  .games-img {
+    height: auto;
+  }
+
+  .games-text {
+    grid-column: span 1;
+  }
+}
+
+/*Phone Screen*/
+
+@media screen and (max-width: 480px) {
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .page {
+    margin-left: 5px;
+  }
+
+  .games {
+    width: 50%;
+    margin-left: 10%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 0.3fr repeat(4, 1fr);
+    height: 80%;
+  }
+
+  .games-text {
+    grid-column: span 1;
+  }
+}
